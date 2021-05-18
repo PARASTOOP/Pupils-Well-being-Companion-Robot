@@ -1,5 +1,4 @@
 # well-being-companion-robot
-Introduction
 
 The global pandemic has extremely affected the wellbeing of children. From having lockdown measures and reduced human to human contact has left children feeling lonely. Research has shown that quarantine measures of isolation can lead to long term psychological consequences of their wellbeing. 
 
