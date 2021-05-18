@@ -10,7 +10,7 @@ Age recognition
 
 Face recognition
 
-•	To be able to recognise an emotion to provide a response
+•	To be able to recognise different facial expressions to provide a response, enabling non-verbal communication.
 
 Object recognition 
 
