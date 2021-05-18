@@ -12,7 +12,7 @@ Face recognition
 
 •	To be able to recognise different facial expressions to provide a response, enabling non-verbal communication.
 
-##Object recognition 
+#Object recognition 
 
 •	To be able to recognise different objects for the better understanding of things that surrounds it.
 
