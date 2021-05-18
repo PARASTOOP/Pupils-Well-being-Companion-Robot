@@ -15,6 +15,7 @@ Face recognition
 
 Object recognition 
 
-•	To be able to recognise different object for the better understanding of things that surrounds it.
+•	To be able to recognise different objects for the better understanding of things that surrounds it.
 
-Other features of the robot include telling jokes and body expressions to interact with a pupil to brighten up their day and be friends. The end goal of this companion robot is to ensure that the child does not feel lonely since they have a robotic friend.
+Other features of the robot include telling jokes and body expressions to interact with a pupil to brighten up their day and be friends.
+The end goal of this companion robot is to ensure that the child does not feel lonely since they have a robotic friend.
