@@ -7,7 +7,7 @@ The purpose of this project is to create a wellbeing companion robot for primary
 
 Age recognition
 
-<p> •	To be able to interact with different children of different primary school age.
+•	To be able to interact with different children of different primary school age.
 
 Face recognition
 
