@@ -1,11 +1,11 @@
-# Student Well-being-Companion-Robot
+# Student Well-being-Companionship-Robot
 
-The global pandemic has extremely affected the wellbeing of children. From having lockdown measures and reduced human to human contact has left children feeling lonely. Research has shown that quarantine measures of isolation can lead to long term psychological consequences of their wellbeing. 
+The global pandemic has extremely affected the wellbeing of children. From having lockdown measures and reduced human to human contact has left children feeling lonely. Research has shown that quarantine measures of isolation can lead to long term psychological consequences of their wellbeing.This means having someone/somthing they feel close to and comforted by.
 
 The purpose of this project is to create a wellbeing companion robot for primary school pupils to be used during the COVID-19 pandemic. It will focus on the aspect of:
 
  Emtional expression
- To be able to create a companionship with pupils by giving a simple feedback interms of some facicial emtion such as Happiness, sadness, angree, surprized or shoked and Nuteral extraction.
+ To be able to provids a companionship and engagment activity with pupils by giving a simple feedback interms of some facicial emtion such as Happiness, sadness, angree, surprized or shoked and Nuteral extraction.
 
 
 Age recognition
