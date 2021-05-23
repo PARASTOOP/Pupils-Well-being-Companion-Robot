@@ -34,16 +34,27 @@ NAO6: the Aldebaran’s robot equipped with NAOqi 2.8
 
 
 Programmable humanoid NAO6 specifications:
+
 Dimensions: 574x 311x 275 mm (22.6 x 10.8 x 12.2 inches)
 Weight: 5.48 Kg (12,08 lb)
+
 Autonomy: 60 minutes in active use et 90 minutes in normal use
+
 Degrees of freedom: 25
+
 Processor: Intel Atom E3845
+
 Built-in OS: Linux (Gentoo)
+
 Compatible OS: Windows, Mac OS, Linux
+
 Programming languages:
+
 Embedded: C++, Python
+
 Remote: Java
+
 Vision: 2 OV5640 2592x1944 cameras
+
 Connectivity: Ethernet, Wi-Fi
 
