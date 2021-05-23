@@ -23,6 +23,7 @@ Other features of the robot include telling jokes and body expressions to intera
 
 
 About NAO
+
 Nao (pronounced now) is an autonomous, programmable humanoid robot developed by Aldebaran Robotics. Aldebaran Roboticswas acquired by Japan's SoftBank Mobile in 2013.
 
 Nao robots have been used for research and education purposes in numerous academic institutions worldwide.
