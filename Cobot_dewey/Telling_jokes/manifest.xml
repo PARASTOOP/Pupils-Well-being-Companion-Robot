@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<package version="1.0.0" uuid="change_mood-1" installOnlyAtStartup="false">
+ <names>
+  <name lang="en_US">change_mood</name>
+ </names>
+ <descriptions>
+  <description lang="en_US">An example for how to use the change Mood by telling random Joks and gestures. Note: This runs on a real robot (not virtual robot) in English.</description>
+ </descriptions>
+ <supportedLanguages>
+  <language>en_US</language>
+ </supportedLanguages>
+ <descriptionLanguages>
+  <language>en_US</language>
+ </descriptionLanguages>
+ <contents>
+  <behaviorContent path="behavior_1">
+   <nature>interactive</nature>
+   <permissions/>
+  </behaviorContent>
+ </contents>
+ <requirements>
+  <naoqiRequirement minVersion="2.5"/>
+  <robotRequirement model="NAO"/>
+ </requirements>
+</package>
