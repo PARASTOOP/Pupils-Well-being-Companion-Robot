@@ -1,0 +1,545 @@
+#VRML_SIM R2021a utf8
+WorldInfo {
+  info [
+    "Aldebaran's Nao H25 V5.0"
+    "NAO is a programmable, 57-cm tall humanoid robot."
+    "The body has 25 degrees of freedom (DOF)."
+    "The sensors include 2 cameras, 4 microphones, sonar rangefinder, 2 IR emitters and receivers, 1 inertial board, and 8 pressure sensors."
+  ]
+  title "Deewey Simulation Classroom"
+  basicTimeStep 20
+  FPS 20
+  coordinateSystem "NUE"
+  contactProperties [
+    ContactProperties {
+      material1 "NAO foot material"
+      coulombFriction [
+        7
+      ]
+      bounce 0.3
+      bounceVelocity 0.003
+    }
+  ]
+}
+Viewpoint {
+  orientation 0.04069943667178232 -0.9868041836335433 -0.15671968293081787 3.643332669350193
+  position 12.493298755029073 7.899016066186722 -9.003076798862457
+  follow "NAO"
+}
+TexturedBackground {
+  texture "empty_office"
+}
+TexturedBackgroundLight {
+  texture "empty_office"
+}
+SimpleChair {
+  translation -0.16323225445795014 0.9096985644760155 0.4482481830620002
+  rotation 0.030306061402553017 0.9995406509334407 0.00017255091484089644 -0.011397605912530537
+  name "simple chair(24)"
+}
+Pedestrian {
+  translation -1.98945 1.27 6.13678
+  rotation 0 -1 0 -0.2618053071795865
+  name "pedestrian(6)"
+  shirtColor 1 0.2 0.2
+  pantsColor 0 0 0
+  shoesColor 0 0 0
+  skinColor 0.5 0.35 0.3
+}
+Pedestrian {
+  translation -0.415953 1.27 4.85843
+  rotation 0 1 0 -0.261795307179586
+  name "pedestrian(7)"
+  shirtColor 1 0.2 0.2
+  pantsColor 0 0 0
+  shoesColor 0 0 0
+  skinColor 0.6 0.43 0.4
+}
+Pedestrian {
+  translation -1.46342 1.27 4.81042
+  rotation 0 -1 0 -0.2618053071795865
+  name "pedestrian(8)"
+  shirtColor 1 0.2 0.2
+  pantsColor 0 0 0
+  shoesColor 0 0 0
+  skinColor 0.6 0.46 0.4
+}
+Pedestrian {
+  translation -3.09278 1.27 6.95888
+  rotation 0 1 0 1.0472
+  name "pedestrian(3)"
+  shirtColor 1 0.2 0.2
+  pantsColor 0 0 0
+  shoesColor 0 0 0
+  skinColor 0.5 0.39 0.3
+}
+Pedestrian {
+  translation 0.00770658 1.27 6.82588
+  rotation 0 1 0 -1.047195307179586
+  name "pedestrian(4)"
+  shirtColor 1 0.2 0.2
+  pantsColor 0 0 0
+  shoesColor 0 0 0
+  skinColor 0.7 0.48 0.4
+}
+Pedestrian {
+  translation -0.558195 1.27 5.98619
+  rotation 0 1 0 -0.523595307179586
+  name "pedestrian(5)"
+  shirtColor 1 0.2 0.2
+  pantsColor 0 0 0
+  shoesColor 0 0 0
+  skinColor 0.7 0.48 0.4
+}
+SolidBox {
+  translation -0.81 0.49 8.97
+  size 3 0.5 1
+  appearance PBRAppearance {
+    baseColorMap ImageTexture {
+      url [
+        "textures/tagged_wall.jpg"
+      ]
+    }
+    transparency 1
+    roughness 0.5
+    metalness 0
+  }
+}
+Pedestrian {
+  translation 0.795 1.27 6.37426
+  rotation 0 -1 0 0.261796
+  name "pedestrian(2)"
+  shirtColor 1 0.2 0.2
+  pantsColor 0 0 0
+  shoesColor 0 0 0
+  skinColor 0.8 0.54 0.4
+}
+Pedestrian {
+  translation -1.81508 1.27 7.06072
+  rotation 0 -1 0 -0.2618053071795865
+  name "pedestrian(1)"
+  shirtColor 1 0.2 0.2
+  pantsColor 0 0 0
+  shoesColor 0 0 0
+  skinColor 0.7 0.48 0.4
+}
+Pedestrian {
+  translation -0.01 2.05 8.65
+  rotation 0 1 0 3.14159
+  shirtColor 1 1 1
+  pantsColor 0 0 0.2
+}
+Laptop {
+  hidden position_0_0 -1.5433041861731904
+  hidden translation_1 0.014499999999999935 0.020046101485944167 -0.06964420750045391
+  hidden rotation_1 -1 0 0 1.8974164574685655
+  translation -0.19464366970101454 1.4881466515287693 8.134011005295632
+  rotation 0.1604910844509008 0.03153052387234893 -0.9865335462497508 3.13141289315098
+}
+OfficeChair {
+  hidden position_0_0 -0.011055912149171511
+  hidden rotation_1 0 -1 0 0.01105540550966878
+  translation -0.28938785297717473 0.7398696348978607 9.255742597922687
+  rotation 1.493546766822051e-08 0.9999999716708896 0.00023802987128046326 -3.1310461845924378
+}
+Wall {
+  translation 9.91 0 -8.8
+  rotation 0 1 0 -1.5707953071795862
+  name "wall(4)"
+  size 2.3 3.9 0.2
+}
+Wall {
+  translation 9.9 0 7.83
+  rotation 0 1 0 1.5708
+  name "wall(3)"
+  size 0.95 3.9 0.2
+}
+WallPlug {
+  translation 0 0 -9.77
+}
+Window {
+  translation 9.89 0 -0.14
+  rotation 0 1 0 -1.5707953071795862
+  size 15 3.9 0.2
+  windowHeight 2
+}
+Door {
+  hidden translation_5 3.1967382074782336e-09 6.661338147750939e-16 0.001000015554599859
+  translation 9.89 0 9.08
+  rotation 0 1 0 1.5708
+  size 1.5 3.9 0.2
+  position 0.0058412613500315475
+  frameHeight 2.5
+}
+Radiator {
+  translation -7.45 0.22 -9.55
+  rotation 0 1 0 1.5708
+  numberOfFins 31
+}
+Cabinet {
+  hidden translation_6 -0.3499999998676019 1.0498862556777286 1.0999999976450683
+  hidden rotation_6 0.9871877559524621 6.700086309650131e-06 -0.15956294824504513 5.726117594525153e-05
+  hidden position_6_0 -0.004243656674261596
+  hidden translation_7 -1.1647058779429287e-05 0 0.005489153432774577
+  hidden rotation_7 0 -1 0 0.00424365667424473
+  hidden translation_10 1.3000000000737715 1.0498864125688785 1.0999999983075464
+  hidden rotation_10 -0.9990492449565186 1.1068199422222758e-09 -0.04359594191906127 -5.6433823894979394e-05
+  hidden position_10_0 0.0028845035971168586
+  hidden translation_11 1.448781854707093e-06 0 0.0010045269846900697
+  hidden rotation_11 0 1 0 0.0028845035971226114
+  hidden translation_14 1.475 0.399884599658112 1.0999999980605404
+  hidden rotation_14 0.9999999999999999 1.0255831437807045e-15 9.150857514694316e-20 5.697728220653251e-05
+  hidden position_14_0 0.005298115668258198
+  hidden translation_15 0 0 0.005298115668258198
+  hidden translation_22 1.125 0.11988459965460353 1.0999999980605848
+  hidden rotation_22 1 1.026025824731728e-15 5.3134170670405356e-17 5.69772855016706e-05
+  hidden position_22_0 0.005298091220760184
+  hidden translation_23 0 0 0.005298091220760184
+  hidden translation_30 1.475 0.11988459965460353 1.0999999980605848
+  hidden rotation_30 1 1.0260109045857996e-15 -7.063705256007209e-17 5.69772855016706e-05
+  hidden position_30_0 0.005298091220760184
+  hidden translation_31 0 0 0.005298091220760184
+  hidden translation_38 -3.219646771412954e-15 0.05977496722719602 1.0999999865063446
+  hidden rotation_38 -1 2.9019120299812786e-11 -5.530154535197848e-09 -0.0001116211601644081
+  hidden position_38_0 0.004877282797785248
+  hidden translation_39 0 0 0.004877282797785248
+  translation -0.86 0 7.3
+  depth 1.1
+  rowsHeights [
+    0, 0, 0.5, 0.4, 0.4
+  ]
+  columnsWidths [
+    2.6, 0.35, 0.35
+  ]
+  primaryAppearance PaintedWood {
+    colorOverride 0.6 0.5 0.4
+  }
+}
+SimpleChair {
+  translation 0.005509737537144071 0.9096985645156643 2.9609928229630778
+  rotation -0.014358308733620937 0.9998968992589525 0.0001726923336517227 0.024056010284821253
+  name "simple chair(12)"
+}
+SimpleChair {
+  translation 4.689903543860851 0.9096985645156643 2.8957010655511772
+  rotation 0.013986713957135525 0.9999021662191383 0.0001726932433000315 -0.024695058956099393
+  name "simple chair(22)"
+}
+SimpleChair {
+  translation -1.317405342184362 0.9096985645156646 2.901756110326593
+  rotation 0.01503464571840099 0.9998869584138366 0.00017269061675685024 -0.022973942580570846
+  name "simple chair(13)"
+}
+SimpleChair {
+  translation -6.5508228132538 0.9096985645156646 2.865107041267036
+  rotation 0.21488968292896907 0.9766383136654617 0.00016867534009254727 -0.0016074303861286295
+  name "simple chair(14)"
+}
+SimpleChair {
+  translation -5.2399263348217024 0.9096985645156644 2.8479477291518585
+  rotation 0.015943627513680496 0.9998728773801677 0.00017268818483066789 -0.021664252380531376
+  name "simple chair(15)"
+}
+SimpleChair {
+  translation -5.169585208091884 0.9096985645156646 0.39841437667513796
+  rotation 0.01235382794509408 0.9999236736425753 0.00017269695785724815 -0.027958765540917425
+  name "simple chair(16)"
+}
+SimpleChair {
+  translation -6.588459610769729 0.9096985645156644 0.2810424133500293
+  rotation 0.013888328411326516 0.9999035376029536 0.000172693480170549 -0.02486998189923717
+  name "simple chair(17)"
+}
+SimpleChair {
+  translation -1.3136856729201598 0.9096985632348535 0.4820460655394864
+  rotation 0.016168734011066062 0.9998692626250226 0.00017233157860822355 -0.021362986885151654
+  name "simple chair(7)"
+}
+SimpleChair {
+  translation 6.129979481249351 0.9096985645156644 0.13362671807830417
+  rotation -0.005431352350555746 -0.9999852351828664 -0.0001727075901557642 0.0635760495112873
+  name "simple chair(2)"
+}
+SimpleChair {
+  translation 6.025315023015934 0.9096985645156643 2.846550428717061
+  rotation -0.009958761155922227 -0.9999503953948946 -0.00017270157298163662 0.034681588532094264
+  name "simple chair(23)"
+}
+SimpleChair {
+  translation 4.7157189588500765 0.9096985645156643 0.12479111141148663
+  rotation -0.005008462220293814 0.9999874426602288 0.00017270797140897423 0.06894001532515855
+  name "simple chair(4)"
+}
+SimpleChair {
+  translation 4.653897518156744 0.9096985645156646 -6.196765533152727
+  rotation 0.007640179909753162 -0.9999707984855838 -0.00017270509679348983 -0.04520331521986212
+  name "simple chair(5)"
+}
+SimpleChair {
+  translation 5.925186442721129 0.9096985645156643 -6.299458261592824
+  rotation 0.00731664830346211 -0.999973218056568 -0.0001727055146795568 -0.047201414009097074
+  name "simple chair(3)"
+}
+Blackboard {
+  translation -0.810026 2.12 9.79
+  rotation 0 1 0 3.14159
+}
+Clock {
+  translation -9.76571 2.15407 -0.751835
+  rotation 2.4161699999887957e-06 0.9999999999953628 1.8538599999914032e-06 1.7017
+}
+Wall {
+  translation -9.91 2.59995e-05 -0.0500027
+  rotation -2.3368099999871345e-06 -0.9999999999944944 -2.34799e-06 -1.5707953071795862
+  name "wall(1)"
+  size 20 3.9 0.2
+}
+Wall {
+  translation -2.34641e-07 -2.09313e-05 9.91
+  rotation 0 1 0 4.692820414042842e-06
+  size 20 3.9 0.2
+}
+Wall {
+  translation -9.32466e-05 -2.09313e-05 -9.91
+  rotation 0 1 0 4.692820414042842e-06
+  name "wall(2)"
+  size 20 3.9 0.2
+}
+Floor {
+  size 20 20
+  tileSize 1 1
+  appearance Parquetry {
+    type "light strip"
+    colorOverride 0.6 0.4 0.2
+  }
+}
+SimpleChair {
+  translation -5.296824822388189 0.9096985645156643 -5.776312115839738
+  rotation 0.0053821456588072905 0.9999855012349826 0.00017270763610612952 -0.0641569017035912
+  name "simple chair(20)"
+}
+SimpleChair {
+  translation -6.5119315430064235 0.9096985645156643 -5.789522034179888
+  rotation -0.0041823460253509834 0.9999912390383499 0.00017270862708245808 0.08254317859337973
+  name "simple chair(21)"
+}
+SimpleChair {
+  translation -5.145095328190029 0.9096985645156643 -3.087376434354301
+  rotation 0.010280617000436157 0.9999471381470378 0.0001727010104088351 -0.033596017662996885
+  name "simple chair(18)"
+}
+SimpleChair {
+  translation -6.522543417099852 0.9096985645156646 -3.082333195857723
+  rotation 0.02627132794195647 0.9996548341902627 0.00017265052654402536 -0.013147995604536344
+  name "simple chair(19)"
+}
+SimpleChair {
+  translation -0.0072820430867875235 0.9096985645156643 -3.100167094176366
+  rotation 0.06461534270212821 0.9979102303229656 0.00017234921577678327 -0.005345780790375023
+  name "simple chair(8)"
+}
+SimpleChair {
+  translation 0.0010527700154339308 0.9096985645156646 -6.216143537259342
+  rotation -0.002821258762600939 0.9999960053272414 0.000172709450270389 0.12228220855316813
+  name "simple chair(10)"
+}
+SimpleChair {
+  translation -1.0816026405523935 0.9096985645156643 -6.133801066680039
+  rotation -0.0019801260422389858 0.99999802463414 0.00017270979902550955 0.1740032226613985
+  name "simple chair(11)"
+}
+SimpleChair {
+  translation -1.2395306185663078 0.9096985645156643 -3.2359548719527074
+  rotation 0.21975384365859038 -0.9755553391832618 -0.0001684882994665962 -0.001571850592057001
+  name "simple chair(9)"
+}
+Desk {
+  translation -5.32 0 -2.55
+  name "desk(20)"
+}
+Desk {
+  translation -6.57 0 -2.55
+  name "desk(22)"
+}
+Desk {
+  translation -5.32 0 -5.65
+  name "desk(21)"
+}
+Desk {
+  translation -6.6 0 -5.65
+  name "desk(23)"
+}
+Desk {
+  translation 0.04 0 -2.54
+  name "desk(14)"
+}
+Desk {
+  translation 0.12 0 -5.65
+  name "desk(16)"
+}
+Desk {
+  translation -1.2 0 -5.65
+  name "desk(17)"
+}
+Desk {
+  translation -1.29 0 -2.54
+  name "desk(15)"
+}
+Desk {
+  translation -6.62 0 3.53
+  name "desk(8)"
+}
+Desk {
+  translation -5.32 0 3.53
+  name "desk(9)"
+}
+Desk {
+  translation -5.32 0 0.85
+  name "desk(18)"
+}
+Desk {
+  translation -6.63 0 0.85
+  name "desk(19)"
+}
+Desk {
+  translation -0.06 0 3.53
+  name "desk(10)"
+}
+Desk {
+  translation -0.06 0 0.78
+  name "desk(12)"
+}
+Desk {
+  translation -1.36 0 0.78
+  name "desk(13)"
+}
+Desk {
+  translation -1.36 0 3.53
+  name "desk(11)"
+}
+Desk {
+  translation 6.05 0 -2.47
+  name "desk(2)"
+}
+Desk {
+  translation 6.05 0 -5.63
+  name "desk(4)"
+}
+Desk {
+  translation 4.76 0 -5.63
+  name "desk(5)"
+}
+Desk {
+  translation 4.78 0 -2.47
+  name "desk(3)"
+}
+Desk {
+  translation 6.05 0 0.82
+}
+Desk {
+  translation 6.05 0 3.53
+  name "desk(6)"
+}
+Desk {
+  translation 4.75 0 3.53
+  name "desk(7)"
+}
+Desk {
+  translation 4.79 0 0.82
+  name "desk(1)"
+}
+SimpleChair {
+  translation 4.7800970022178 0.9096985645156646 -3.2500162644580177
+  rotation -0.026019836768898467 0.9996614118219844 0.00017265166258786165 0.01327507204294592
+  name "simple chair(6)"
+  legColor 1 1 0.1
+}
+SimpleChair {
+  translation 6.115101517658168 0.9096985645156643 -3.0826636230353968
+  rotation -0.06355706196715989 0.997978191227546 0.00017236095334147262 0.0054347922869260835
+  name "simple chair(1)"
+}
+Television {
+  translation -3.86 2.12 9.73999
+  rotation 0 1 0 3.14159
+}
+Nao {
+  hidden position_0_0 1.0202522160440647e-10
+  hidden position2_0_0 -7.531445308605733e-09
+  hidden position_0_1 1.7449998221011178
+  hidden position2_0_1 -0.3489998939576183
+  hidden position_0_2 1.7449998674863558
+  hidden position2_0_2 0.34899984811812873
+  hidden position_0_3 -9.921575260926574e-07
+  hidden position_0_4 4.149280470188217e-06
+  hidden rotation_18 -0.02980040489328554 0.9848134360849747 -0.171039270270607 3.1449483240285616
+  hidden position_18_0 1.3959999351239156
+  hidden rotation_19 0.9999999999999999 0 0 2.791999874988664
+  hidden position_19_0 1.395999996748416
+  hidden rotation_20 0 0 0.9999999999999999 2.7919994397147927
+  hidden position_20_0 -5.457110728271728e-08
+  hidden rotation_21 -1 0 0 2.2302015940987725e-07
+  hidden position_21_0 2.586287833306224e-11
+  hidden position_21_1 -1.9583055109578526e-11
+  hidden position_21_2 2.1658393443076221e-10
+  hidden rotation_22 0 1 0 0.9599999999286863
+  hidden position_22_0 1.1952773694433517e-10
+  hidden rotation_23 0 1 0 0.9599999998028741
+  hidden position_23_0 5.273835129203463e-11
+  hidden rotation_24 0 0.9999999999999999 0 0.9599999999133315
+  hidden rotation_25 0 0.9999999999999999 0 0.9600000001050607
+  hidden position_25_0 5.136729446616624e-11
+  hidden rotation_26 0 1 0 0.9599999999391833
+  hidden position_26_0 5.27410736106693e-11
+  hidden rotation_27 0 0.9999999999999999 0 0.9599999999133257
+  hidden position_28_0 3.081329638358181e-11
+  hidden rotation_29 0 -1 0 0.9599999999497537
+  hidden rotation_30 0.19242632755685754 0.9679275406537664 0.16151899116491644 3.299862859814057
+  hidden position_30_0 -1.395999936900024
+  hidden rotation_31 -1 0 0 2.7919998781488333
+  hidden position_31_0 -1.3960000068167844
+  hidden rotation_32 0 0 -1 2.7919994987546266
+  hidden position_32_0 6.900327044711838e-08
+  hidden rotation_33 -1 0 0 1.032382731180714e-07
+  hidden position_33_0 1.2338600153374116e-11
+  hidden position_33_1 1.2339171370665907e-11
+  hidden position_33_2 2.272357365380526e-10
+  hidden position_34_0 1.499251847825022e-10
+  hidden rotation_35 0 1 0 0.959999999754322
+  hidden position_35_0 5.79556584195305e-11
+  hidden rotation_36 0 1 0 0.9599999999034506
+  hidden position_37_0 1.498671075093595e-10
+  hidden rotation_38 0 1 0 0.9599999997544418
+  hidden position_38_0 5.6621870581169054e-11
+  hidden rotation_39 0 1 0 0.9599999999061188
+  hidden position_40_0 3.991889435434157e-11
+  hidden rotation_41 0 -1 0 0.9599999999344715
+  hidden rotation_42 0 -0.7071067811865476 -0.7071067811865476 2.6823745782406665e-06
+  hidden position_42_0 0.026998255372996313
+  hidden rotation_43 -1 0 0 0.004000726677511334
+  hidden position_43_0 -0.5240003908885336
+  hidden rotation_44 0 -1 0 0.5240003908885339
+  hidden position_44_0 1.0490014561036896
+  hidden rotation_45 0 1 0 1.0490014561036896
+  hidden position_45_0 -0.5250002517936964
+  hidden rotation_46 0 -1 0 0.525000251793696
+  hidden position_46_0 -0.026999746717341448
+  hidden rotation_47 -0.9999999999999999 0 0 0.02699974671733691
+  hidden translation_48 0.02003260627402348 -0.007007682394738701 -0.04209675733681095
+  hidden rotation_48 1.2214266966221151e-06 -2.7028080432177064e-06 0.9999999999956016 -3.1415875751180065
+  hidden rotation_52 0 0.7071067811865475 -0.7071067811865475 4.191439984262558e-06
+  hidden position_52_0 0.027003264196003907
+  hidden rotation_53 -1 0 0 0.003996735876677093
+  hidden position_53_0 -0.5239991761071131
+  hidden rotation_54 0 -1 0 0.5239991761071131
+  hidden position_54_0 1.0490007710745641
+  hidden rotation_55 0 1 0 1.0490007710745644
+  hidden position_55_0 -0.5249997528193945
+  hidden rotation_56 0 -1 0 0.5249997528193943
+  hidden position_56_0 -0.02699888512501142
+  hidden rotation_57 -1 0 0 0.026998885125004934
+  hidden translation_58 0.01999562190092874 0.007089958336345958 -0.0422448225622476
+  hidden rotation_58 -1.4569415361708689e-06 -1.167787151705694e-06 0.9999999999982568 -3.141587163136226
+  translation -1.6883348304157937 1.7871287344222357 7.6313080923531595
+  rotation -0.8216579595476632 -0.407580143074451 -0.3984427493171146 1.7511419263613681
+}
