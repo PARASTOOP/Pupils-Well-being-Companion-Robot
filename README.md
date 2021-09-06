@@ -7,15 +7,15 @@ The purpose of this project is to create a wellbeing companion robot Humanioud r
 
 Emotional expression To be able to provide a companionship and engagement activity with pupils by giving a simple feedback in terms of some facial emotion such as Happiness, sadness, angry, surprised or shocked and Neutral extraction.
 
-Age recognition
+## Age recognition
 
 • To be able to interact with different children of different primary school age.
 
-Face recognition
+## Face recognition
 
 • To be able to recognise different facial expressions to provide a response, enabling non-verbal communication.
 
-Object recognition
+## Object recognition
 
 • To be able to recognise different objects for the better understanding of things that surrounds it.
 
@@ -25,7 +25,7 @@ Other features of the robot include telling jokes and body expressions to intera
 
  [Watch the demo on youtube (https://youtu.be/nXKKdrhWdhs)]
 
-About NAO
+# About NAO
 
 Nao (pronounced now) is an autonomous, programmable humanoid robot developed by Aldebaran Robotics. Aldebaran Roboticswas acquired by Japan's SoftBank Mobile in 2013.
 
@@ -36,7 +36,7 @@ NAO6: the Aldebaran’s robot equipped with NAOqi 2.8
 ![image](https://user-images.githubusercontent.com/57176066/119270959-3080dd80-bbf7-11eb-92d3-07e877ce14ef.png)
 
 
-Programmable humanoid NAO6 specifications:
+#### Programmable humanoid NAO6 specifications:
 
 Dimensions: 574x 311x 275 mm (22.6 x 10.8 x 12.2 inches)
 Weight: 5.48 Kg (12,08 lb)
