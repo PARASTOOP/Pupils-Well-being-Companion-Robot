@@ -22,6 +22,9 @@ Object recognition
 Other features of the robot include telling jokes and body expressions to interact with a pupil to brighten up their day and be friends. The end goal of this companion robot is to ensure that the child does not feel lonely since they have a robotic friend.
 
 
+
+ [Watch the demo on youtube (https://youtu.be/nXKKdrhWdhs)]
+
 About NAO
 
 Nao (pronounced now) is an autonomous, programmable humanoid robot developed by Aldebaran Robotics. Aldebaran Roboticswas acquired by Japan's SoftBank Mobile in 2013.
